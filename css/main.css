@@ -19,7 +19,6 @@ body {
 
 #wrapper {
 	text-align: justify;
-
 }
 
 #main, #about {
@@ -70,26 +69,10 @@ body {
 
 a {
 	color: #008AE6;
-	-moz-transition-property: all;
-	-moz-transition-duration: 0.5s;
-	-moz-transition-timing-function: ease-in-out;
-	-moz-transition-delay: 0s;
-	-moz-transition: all 0.5s ease 0s; 
-	-webkit-transition-property: all;
-	-webkit-transition-duration: 0.5s;
-	-webkit-transition-timing-function: ease-in-out;
-	-webkit-transition-delay: 0s;
-	-webkit-transition: all 0.5s ease 0s; 
-	-ms-transition-property: all;
-	-ms-transition-duration: 0.5s;
-	-ms-transition-timing-function: ease-in-out;
-	-ms-transition-delay: 0s;
-	-ms-transition: all 0.5s ease 0s; 
-	-o-transition-property: all;
-	-o-transition-duration: 0.5s;
-	-o-transition-timing-function: ease-in-out;
-	-o-transition-delay: 0s;
-	-o-transition: all 0.5s ease 0s; 
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
 	transition: all 0.5s ease 0s;
 }
 
@@ -147,26 +130,10 @@ ul#navigation li {
 	text-align: center;
 	list-style-type: none;
 	background: #2a2a2a;
-	-moz-transition-property: all;
-	-moz-transition-duration: 0.5s;
-	-moz-transition-timing-function: ease-in-out;
-	-moz-transition-delay: 0s;
-	-moz-transition: all 0.5s ease 0s; 
-	-webkit-transition-property: all;
-	-webkit-transition-duration: 0.5s;
-	-webkit-transition-timing-function: ease-in-out;
-	-webkit-transition-delay: 0s;
-	-webkit-transition: all 0.5s ease 0s; 
-	-ms-transition-property: all;
-	-ms-transition-duration: 0.5s;
-	-ms-transition-timing-function: ease-in-out;
-	-ms-transition-delay: 0s;
-	-ms-transition: all 0.5s ease 0s; 
-	-o-transition-property: all;
-	-o-transition-duration: 0.5s;
-	-o-transition-timing-function: ease-in-out;
-	-o-transition-delay: 0s;
-	-o-transition: all 0.5s ease 0s; 
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
 	transition: all 0.5s ease 0s;
 }
 
@@ -192,26 +159,10 @@ ul#navigation li a {
 	vertical-align: middle;
 	text-decoration: none;
 	color: #fff;
-	-moz-transition-property: all;
-	-moz-transition-duration: 0.5s;
-	-moz-transition-timing-function: ease-in-out;
-	-moz-transition-delay: 0s;
-	-moz-transition: all 0.5s ease 0s; 
-	-webkit-transition-property: all;
-	-webkit-transition-duration: 0.5s;
-	-webkit-transition-timing-function: ease-in-out;
-	-webkit-transition-delay: 0s;
-	-webkit-transition: all 0.5s ease 0s; 
-	-ms-transition-property: all;
-	-ms-transition-duration: 0.5s;
-	-ms-transition-timing-function: ease-in-out;
-	-ms-transition-delay: 0s;
-	-ms-transition: all 0.5s ease 0s; 
-	-o-transition-property: all;
-	-o-transition-duration: 0.5s;
-	-o-transition-timing-function: ease-in-out;
-	-o-transition-delay: 0s;
-	-o-transition: all 0.5s ease 0s; 
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
 	transition: all 0.5s ease 0s;
 }
 
@@ -232,12 +183,6 @@ ul#navigation li a {
 	margin-bottom: 10px;
 }
 
-.img-right {
-	float: right;
-	width: 300px;
-	margin-right: 0;
-}
-
 .img-left {
 	float: left;
 	width: 300px;
@@ -250,26 +195,10 @@ ul#navigation li a {
 	border-bottom: 1px solid #777;
 	font-size: 15px;
 	margin: 10px 70px;
-	-moz-transition-property: all;
-	-moz-transition-duration: 0.5s;
-	-moz-transition-timing-function: ease-in-out;
-	-moz-transition-delay: 0s;
-	-moz-transition: all 0.5s ease 0s; 
-	-webkit-transition-property: all;
-	-webkit-transition-duration: 0.5s;
-	-webkit-transition-timing-function: ease-in-out;
-	-webkit-transition-delay: 0s;
-	-webkit-transition: all 0.5s ease 0s; 
-	-ms-transition-property: all;
-	-ms-transition-duration: 0.5s;
-	-ms-transition-timing-function: ease-in-out;
-	-ms-transition-delay: 0s;
-	-ms-transition: all 0.5s ease 0s; 
-	-o-transition-property: all;
-	-o-transition-duration: 0.5s;
-	-o-transition-timing-function: ease-in-out;
-	-o-transition-delay: 0s;
-	-o-transition: all 0.5s ease 0s; 
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
 	transition: all 0.5s ease 0s;
 }
 
@@ -326,49 +255,6 @@ ul#navigation li a {
 	color: #333;
 }
 
-#cta #button {
-	position: absolute;
-	padding-top: 40px;
-	width: 300px;
-	height: 100px;
-	top: 100px;
-	left: 1000px;
-	text-align: center;
-	line-height: 50px;
-	border: 10px solid #fff;
-	border-radius: 10px;
-	font-size: 40px;
-	color: #fff;
-	font-weight: bold;
-	z-index: 1;
-	-moz-transition-property: all;
-	-moz-transition-duration: 0.5s;
-	-moz-transition-timing-function: ease-in-out;
-	-moz-transition-delay: 0s;
-	-moz-transition: all 0.5s ease 0s; 
-	-webkit-transition-property: all;
-	-webkit-transition-duration: 0.5s;
-	-webkit-transition-timing-function: ease-in-out;
-	-webkit-transition-delay: 0s;
-	-webkit-transition: all 0.5s ease 0s; 
-	-ms-transition-property: all;
-	-ms-transition-duration: 0.5s;
-	-ms-transition-timing-function: ease-in-out;
-	-ms-transition-delay: 0s;
-	-ms-transition: all 0.5s ease 0s; 
-	-o-transition-property: all;
-	-o-transition-duration: 0.5s;
-	-o-transition-timing-function: ease-in-out;
-	-o-transition-delay: 0s;
-	-o-transition: all 0.5s ease 0s; 
-	transition: all 0.5s ease 0s;
-}
-
-#cta #button:hover {
-	color: transparent;
-	background: #fff;
-}
-
 #cta #cta-banner {
 	position: absolute;
 	bottom: 200px;
@@ -384,31 +270,6 @@ ul#navigation li a {
 	box-shadow: none;
 }
 
-#about-header {
-	padding: 10px;
-	border: 1px solid #333;
-	font-size: 20px;
-	margin: 10px 0;
-	background: #555;
-	color: #E68A2E;
-	font-style: italic;
-	display: table;
-	width: 878px;
-	box-shadow: 0 0 10px rgba(100, 100, 100, 0.8);
-}
-
-#about-header p {
-	display: table-cell;
-	margin-bottom: 10px;
-	vertical-align: middle;
-}
-
-#about-header img {
-	border: 0;
-	display: inline;
-	box-shadow: none;
-}
-
 #toTop {
 	position: fixed;
 	top: 0;
@@ -416,26 +277,10 @@ ul#navigation li a {
 	z-index: 9999;
 	padding-top: 15px;
 	height: 43px;
-	-moz-transition-property: all;
-	-moz-transition-duration: 0.5s;
-	-moz-transition-timing-function: ease-in-out;
-	-moz-transition-delay: 0s;
-	-moz-transition: all 0.5s ease 0s; 
-	-webkit-transition-property: all;
-	-webkit-transition-duration: 0.5s;
-	-webkit-transition-timing-function: ease-in-out;
-	-webkit-transition-delay: 0s;
-	-webkit-transition: all 0.5s ease 0s; 
-	-ms-transition-property: all;
-	-ms-transition-duration: 0.5s;
-	-ms-transition-timing-function: ease-in-out;
-	-ms-transition-delay: 0s;
-	-ms-transition: all 0.5s ease 0s; 
-	-o-transition-property: all;
-	-o-transition-duration: 0.5s;
-	-o-transition-timing-function: ease-in-out;
-	-o-transition-delay: 0s;
-	-o-transition: all 0.5s ease 0s; 
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
 	transition: all 0.5s ease 0s;
 }
 
