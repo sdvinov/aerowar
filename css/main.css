@@ -313,7 +313,7 @@ ul#navigation li a {
   padding: 0 !important;
 }
 
-@media only screen and (max-width: 1012px) {
+@media only screen and (max-width: 1024px) {
 	#cta-banner {
 		bottom: 0 !important;
 		width: 100% !important;
@@ -326,6 +326,42 @@ ul#navigation li a {
 
 	#main p.type {
 		font-size: 1em;
+	}
+
+	iframe {
+		float: none;
+		margin: 0;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	#map {
+		float: right;
+		width: 300px;
+		margin: 20px;
+	}
+
+	#contact p {
+		text-align: left !important;
+	}
+
+	.price-item {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	#navigation {
+		text-align: right;
+	}
+
+	 ul#navigation li:last-of-type {
+		margin-right: 100px !important;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	ul#navigation li {
+		display:none;
 	}
 }
 
@@ -359,12 +395,6 @@ ul#navigation li a {
 		padding: 20px 0;
 	}
 
-	iframe {
-		float: none;
-		margin: 0;
-		width: 100%;
-	}
-
 	#product p, #contact p {
 		font-size: 1em;
 		text-align: left;
@@ -373,5 +403,20 @@ ul#navigation li a {
 	#about p {
 		padding-top: 20px;
 		text-align: left;
+	}
+
+	#contact p {
+		padding-left: 20px;
+	}
+
+	#contact h3 {
+		margin-left: 20px;
+		margin-bottom: 0;
+	}
+
+	#map {
+		width: 100%;
+		margin: 0;
+		margin-bottom: 20px;
 	}
 }
